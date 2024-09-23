@@ -1,0 +1,154 @@
+Sistema de Control de versiones de Git y GitHub
+
+Comando: pwd 
+Comentario:
+Ej:
+Comando: clear
+Comentario:
+Ej:
+Comando: cd
+Comentario:
+Ej:
+Comando: ls
+Comentario:
+Ej:
+Comando: cd..
+Comentario:
+Ej:
+Comando: ls -l
+Comentario:
+Ej:
+Comando: ls -al
+Comentario:
+Ej:
+Comando: touch
+Comentario:
+Ej:
+Comando: cat
+Comentario:
+Ej:
+Comando: hsitory
+Comentario:
+Ej:
+Comando: !#comando
+Comentario:
+Ej:
+Comando: rm
+Comentario:
+Ej:
+Comando: comando --help
+Comentario:
+Ej:
+Comando: git init  
+Comentario:
+Ej:
+Comando: git status
+Comentario:
+Ej:
+Comando: git add
+Comentario:
+Ej:
+Comando: git add.
+Comentario:
+Ej:
+Comando: git commit -m
+Comentario:
+Ej:
+Comando: git commit -am "texto"
+Comentario:
+Ej:
+Comando: git log
+Comentario:
+Ej:
+Comando: code <archivo>
+Comentario:
+Ej:
+Comando: git rm <archivo>
+Comentario:
+Ej:
+Comando: git rm cached <archivo>
+Comentario:
+Ej:
+Comando: git checkout 
+Comentario:
+Ej:
+Comando: git checkout master
+Comentario:
+Ej:
+Comando: git config --list 
+Comentario:
+Ej:
+Comando: git config --list --show-origin " "
+Comentario:
+Ej:
+Comando: -- (doble guion)
+Comentario:
+Ej:
+Comando: git branch 
+Comentario:
+Ej:
+Comando: git show 
+Comentario:
+Ej:
+Comando: git diff
+Comentario:
+Ej:
+Comando: git reset 
+Comentario:
+Ej:
+Comando: git commit -a 
+Comentario:
+Ej:
+Comando: git log --stat
+Comentario:
+Ej:
+Comando: git merge
+Comentario:
+Ej:
+Comando: git config global 
+Comentario:
+Ej:
+Comando: git remove 
+Comentario:
+Ej:
+Comando: git remote set-url origin <nva.urlSSH>
+Comentario:
+Ej:
+Comando: git remote add origin <url> 
+Comentario:
+Ej:
+Comando: git log --oneline
+Comentario:
+Ej:
+Comando: git reset HEAD 
+Comentario:
+Ej:
+Comando: git revert 
+Comentario:
+Ej:
+Comando: git push 
+Comentario:
+Ej:
+Comando: 
+Comentario: git pull 
+Ej:
+Comando: 
+Comentario:
+Ej:
+Comando: 
+Comentario:
+Ej:
+Comando: 
+Comentario:
+Ej:
+Comando: 
+Comentario:
+Ej:
+Comando: 
+Comentario:
+Ej:
+Comando: 
+Comentario:
+Ej:
+
+
