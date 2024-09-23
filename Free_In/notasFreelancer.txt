@@ -1,0 +1,111 @@
+El rol de HTML 
+Es el contenido de la WEB 
+
+El rol de CSS
+Encargado de colores,tamaños, espacios  buen diseño
+Hojas de estilo en cascada, que genera diseño unico y especial 
+CSS es  facil 
+
+Partes de CSS
+Selector p
+Llave de apertura y llave de cierre 
+Sets de  valores  llave (propiedad) : y valor 
+
+¿Por que hojas de estilo en cascada?
+Si se tiene el mismo codigo se tomara solo el ultimo fracmento de cofigo que se ocupe 
+
+p {
+color: blue;
+}
+
+Donde se coloca el codigo CSS 
+
+Mediante la estiqueta style o con archivo externo 
+
+Al inspeccionar en el icono del lado superior izquierdo el primer icono muestra las reglas que se aplican de codigo CSS
+Sirve por si se tiene que hgenerar mantenimiento del codigo te dara archivo, linea y propiedades que utiliza 
+
+Las hojas de estilo del agente de usuario son las que ya aplica el navegador
+
+Se se escribe de manera incorrecta la propiedad en CSS solo se podra ver tras inspeccionar el codgio ya que se marcara la propiedad como cancelada 
+
+
+Si se pone dos propiedades siempre aplicara la ultima propiedad, lo recomendable es colocar los selectores o las propiedades en forma 
+estructurada despues de ; otra linea y no todo de corrido, siempre en minusculas #Buenas Practicas#
+
+
+Para optimizar el performance a la hora de cargar la pagina es mediante, de lo nuevo de CSS
+<link rel="preload" href="css/styles.css" as="style">
+Para conectar las hojas de css con el documento html es mediante 
+    <link href="css/styles.css" rel="stylesheet">
+
+
+
+Los rem se adaptan mejor en dispositivos que se tengas una densidad de pixeles muy alta 
+Se agregan estos selectores, propiedades y valores 
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 16px; /* 1rem = 10px*/
+}
+
+EJ: 
+
+h1{
+    text-align: center;
+    font-size: 3.8rem;    Es como si fuese 38 Pixeles 
+}
+
+span{
+    font-size: 2rem;
+}
+
+Propiedades de css se pueden verificar en W3School
+Algunas son 
+font-size 
+text-align
+
+Como escribir selectores en CSS
+Se pueden seleccionar uno o multipleas alementos dependiendo como se componga el selectoe 
+
+Selector de elemento 
+Selecciona un elemento en base a su etiqueta 
+Ejemplo esto selecciona todos los parrafos 
+p{
+    color: blue;
+}
+
+Selector de clase 
+Una clase se puede crear multiples veces (es reutilizable) e inicia con un punto 
+.cliente{
+    color:blue;
+}
+
+Selector de ID 
+Pudes tener multiples ID´s por pagina per sus nombres no pueden repetirse 
+#cliente {
+    color: blue;
+}
+
+Selector de Atributo 
+Selecciona elementos basado en algun atributo que tenga 
+
+[src="log.jpg"]{
+    color: blue;
+}
+
+Combinacion de Descendentes 
+Selecciona los elementos hijos cuyo padre sea una clase (o ID) en especifico 
+
+.cliente .nombre {
+    color: blue;
+}
+
+Todos los hijos 
+Aplica la siguiente regla a todos los parrafos hijos 
+
+.cliente > p{
+    color: blue;
+}
+
